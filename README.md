@@ -2,16 +2,6 @@
 
 Telegram-бот для сбора **@usernames** всех участников группы по команде `/get_users`.
 
-> ⚠️ **Важно:** Этот репозиторий содержит **две реализации** в одном проекте,
-> так как `aiogram` не работает на Cloudflare Workers. См. таблицу ниже.
-
-| Реализация | Файл | Стек | Платформа деплоя |
-|------------|------|------|------------------|
-| **A. Python** (основная) | `src/bot.py` | Python 3.11+ / aiogram 3.x | Railway, Render, Fly.io, VPS |
-| **B. Cloudflare Workers** (альтернатива) | `src/worker.js` | JavaScript / grammY | Cloudflare Workers |
-
----
-
 ## ✨ Возможности
 
 - ✅ Сбор @usernames всех участников группы
